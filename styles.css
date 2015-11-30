@@ -1,45 +1,30 @@
-body {
-background-size: cover;
- background-image: url("http://www.umsl.edu/~schreyerk/Research/Maps/Londonmap/files/map-london-tudor.gif");
-background-repeat: no-repeat;
-  }
+body{
+  padding-bottom: 10%;
+  background-size: cover;
+   background-image: url("http://orig12.deviantart.net/bf50/f/2010/009/2/1/kirby__s_adventure_by_p0ngbr.png");
+   background-repeat: no-repeat;
 
- h1{
-   text-align: center;
-   color: red;
- }
-
-#pdoc{
-  position: absolute;
-  z-index: 8000;
 }
 
-.doc{
-  border-radius: 500px;
+h1{
+  text-align: center;
+}
+th{
+  color: yellow;
+}
+table{
+
   border: 3px solid rgb(14, 14, 14);
-  width: 70px;
-  height: 70px;
+  padding-top: 4%;
+  margin-top: 17%;
+  background-color: lightpink;
+  background-image: url("http://rs199.pbsrc.com/albums/aa90/jediknight114/kirbydance.gif~c200");
+
+  background-size: 29%;
+  border-radius: 2% black;
 
 }
-div.image {
-   content:url("http://www.monsoon2d.com/images/pixelart/runrat_1.gif");
-   border-radius: 500px;
-   border: 3px solid rgb(14, 14, 14);
-   width: 30px;
-   height: 30px;
-   top:100px;
-   left:100px;
-   margin:auto;
-   position: absolute;
-}​
-
-
-.mouse2{
-  font-size: 5em;
-position: absolute;
-left: 50%;
-top: 25%;
-width: 30px;
-height: 30px;
-
+.cage{
+  height: 95%;
+  width: 66%;
 }

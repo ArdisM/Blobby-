@@ -3,30 +3,63 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <title>The Chase</title>
-    <h1>Stop the Plague from Spreading</h1>
+    <title>Blobby</title>
   </head>
-    <body>
-    <prompt>
+  <body>
+    <h1>A PET BLOB TAKE CARE OF IT OR IT DIES!!!</h1>
+    <center>
+<form name="ctrform">
+<table>
+<tr>
+<th>Life</th>
+<th>Status</th>
+</tr>
+<tr>
+<td><div align="center"><center><p><input  type="text" size="20" name="will"></td>
+<td align="center"><input type="text" size="25" name="ctrstatus"></td>
+</tr>
+<tr align="center">
+<th>Blobby</th>
+<th>Options</th>
+</tr>
+<tr align="center">
+<td><input type="text"class="cage" name="ctr" size="30" onFocus="if (alive == true) tLiphe()"></td>
+<td><div align="center"><center><p><input type="button" value="Make a Blob"
+onClick="if (alive == false) gLiphe()"></td>
+</tr>
 
-    </prompt>
+<div align="center"><center>
 
-    <div id="doctor">
-      <img class="doc"  src="http://static1.squarespace.com/static/549743d3e4b0787a0cbcf60a/54e115a0e4b0406fb3d94487/54e115a2e4b05ae62264460e/1424037284860/PlagueDoc8FramWalk.gif" id="pdoc"/>
-      </div>
+<tr>
+<td><input type="button" value="Smack" onClick="if (alive == true) smite()"></td></tr><tr>
+<td><input type="button" value="Clean Potty" onClick="if (alive == true) cleancage()"></td></tr><tr>
+<td><input type="button" value="Give Medicine" onClick="if (alive == true) dnfekt()"></td>
+</tr>
+<tr>
+<td><input type="button" value="Give Food"
+onClick="if (alive == true) pheed(document.ctrform.phood.selectedIndex)">
+<select name="phood" size="1">
+<option>Treat</option>
+<option>pellets</option>
+</select></td>
+</tr>
+<tr>
+<td><input type="button" value="Scratch" onClick="if (alive == true) scratchyscratchy()"></td>
+</tr>
+<tr>
+<td><input type="button" value="Poke Blobby" onClick="if (alive == true) poke()"><br></td>
+</tr>
 
-      <div class="image" onclick=""></div>
+</center>
+</div>
+</td>
+</tr>
+</table>
+</form>
+</center>
 
-  <!--  <div id="jerry2">
-    <img class="mouse2" src="http://www.monsoon2d.com/images/pixelart/runrat_1.gif">
-  </div> --->
-
-
-
-
-    <script src="https://code.jquery.com/jquery-1.11.3.js" charset="utf-8"></script>
-    <script type="text/javascript" src="scripts.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.js" charset="utf-8"></script>
+<script type="text/javascript" src="scripts.js"></script>
 
   </body>
-
 </html>
