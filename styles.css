@@ -4,10 +4,13 @@ body{
    background-image: url("http://orig12.deviantart.net/bf50/f/2010/009/2/1/kirby__s_adventure_by_p0ngbr.png");
    background-repeat: no-repeat;
 
+
 }
 
 h1{
+  margin-top: 8%;
   text-align: center;
+  font-family: 'Luckiest Guy', cursive;
 }
 th{
   color: yellow;
@@ -16,7 +19,7 @@ table{
 
   border: 3px solid rgb(14, 14, 14);
   padding-top: 4%;
-  margin-top: 17%;
+  margin-top: 10%;
   background-color: lightpink;
   background-image: url("http://rs199.pbsrc.com/albums/aa90/jediknight114/kirbydance.gif~c200");
 
